@@ -2,8 +2,59 @@ html, body {
 	height: 100%;
 	max-width: 100%;
 	min-width: 430px;
-	color: white;
 	padding-top: 27px;
+	background-color: #1565c0;
+}
+
+.container {
+	margin: auto auto;
+	width: 80%;
+	height: 80%;
+	border-radius: 0px;
+	color: black;
+	background: rgba(250,250,250,.5);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.text {
+	margin: auto auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+h1 {
+	width: 100%;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 3px #524A4A, 5px 5px 10px #524A4A;
+}
+p {
+	margin: 2rem 0;
+	color: #ba68c8;
+	text-shadow: 1px 1px 1px black;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-table;
+	text-align: center;
+	display: inline;
+}
+
+li {
+	margin: 0 .5rem;
+	display: inline;
+}
+
+a {
+	text-decoration: none !important;
+	color: #ff5722;
+}
+
+a:hover {
+	color: white;
 }
 
 // Small devices (landscape phones, 576px and up)
