@@ -1,7 +1,7 @@
 html, body {
 	height: 100%;
 	max-width: 100%;
-	min-width:  436px;
+	min-width: 430px;
 	color: white;
 	padding-top: 27px;
 }
@@ -27,6 +27,9 @@ html, body {
 	p {
 		margin-top: 1.75rem;
 		font-family: 'Roboto Mono', monospace;
+	}
+	#about-img {
+		margin-left: 25%;
 	}
 }
 
