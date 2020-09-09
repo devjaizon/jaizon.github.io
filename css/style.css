@@ -9,6 +9,7 @@
 html, body {
   font-family: 'Roboto', sans-serif;
   height: 100%;
+  width: 100%;
   background: -webkit-gradient(linear, left top, right bottom, from(#6cffff), to(#4babef));
   background: linear-gradient(top left, #6cffff, #4babef);
   display: -webkit-box;
@@ -23,7 +24,8 @@ html, body {
 }
 
 .container {
-  width: 100%;
+  width: 80%;
+  max-width: 1000px;
   border-radius: 3px;
   background: rgba(222, 100, 255, 0.583);
   display: -webkit-box;
@@ -55,6 +57,7 @@ html, body {
 .container span {
   color: white;
   font-weight: 700;
+  margin-right: .2rem;
 }
 
 .container ul {

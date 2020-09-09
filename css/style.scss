@@ -9,6 +9,7 @@
 html, body {
 	font-family: 'Roboto', sans-serif;
 	height: 100%;
+	width: 100%;
 	background: linear-gradient(top left, rgb(108, 255, 255) , rgb(75, 171, 239));
 	display: flex;
 	justify-content: center;
@@ -16,7 +17,8 @@ html, body {
 }
 
 .container {
-	width: 100%;
+	width: 80%;
+	max-width: 1000px;
 	border-radius: 3px;
 	background: rgba(222, 100, 255, 0.583);
 	display: flex;
@@ -39,6 +41,7 @@ html, body {
 	span {
 		color: white;
 		font-weight: 700;
+		margin-right: .2rem;
 	}
 
 	ul {
